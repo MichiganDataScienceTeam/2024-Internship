@@ -1,0 +1,17 @@
+name: Broken link report
+description: Report a broken link.
+title: "[Link] <The name of the offending job position>"
+labels: Broken-link
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for taking the time to file a bug report. Before you create a new issue please do the following:
+      - Check the issue section to see if there is already an issue discussing your problem.
+
+- type: textarea
+  attributes:
+    label: "Paste the offending README listing (entire row):"
+  validations:
+    required: true

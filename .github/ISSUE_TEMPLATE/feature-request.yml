@@ -1,0 +1,11 @@
+name: Feature request
+description: Please submit your ideas for improving FastF1 here.
+title: "[Feature] <Please write a descriptive title here>"
+labels: Feature-request
+
+body:
+- type: textarea
+  attributes:
+    label: "Proposed new feature or change:"
+  validations:
+    required: true

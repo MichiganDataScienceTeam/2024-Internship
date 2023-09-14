@@ -1,0 +1,17 @@
+name: Duplicate positions report
+description: Report duplicated positions.
+title: "[Duplicate] <The name of the duplicated job position>"
+labels: Duplicate
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for taking the time to file a bug report. Before you create a new issue please do the following:
+      - Check the issue section to see if there is already an issue discussing your problem.
+
+- type: textarea
+  attributes:
+    label: "Paste one of the duplicates (entire row):"
+  validations:
+    required: true

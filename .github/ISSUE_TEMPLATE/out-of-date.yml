@@ -1,0 +1,23 @@
+name: Outdated information report
+description: Report an outdated entry.
+title: "[Out-of-date] <The name of the offending job position>"
+labels: Out-of-date
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for taking the time to file a bug report. Before you create a new issue please do the following:
+      - Check the issue section to see if there is already an issue discussing your problem.
+
+- type: textarea
+  attributes:
+    label: "Paste the offending README listing (entire row):"
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: "Explain why the listing is out of date/what has changed:"
+  validations:
+    required: true

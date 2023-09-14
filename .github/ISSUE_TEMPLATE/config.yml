@@ -1,0 +1,6 @@
+contact_links:
+    - name: Question/Help/Support
+      url: https://github.com/MichiganDataScienceTeam/2024-Internship/discussions
+      about: "Consider opening a dicussion if your concern is not directly related to the repository content."
+    - name: Contact the team
+      url: "If your concern cannot be addressed publicly, please contact the maintainers at mdst-coms@umich.edu"

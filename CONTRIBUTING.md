@@ -41,3 +41,15 @@ Use this column to supply relevant information, such as **visa sponsorship** and
 
 ## Application Closed
 Add **CLOSED** to the top of the `Notes` column and add ~~strikethrough~~ to all other columns.
+
+## Links Formatting
+You should shorten all submitted links as much as possible by removing all query parameters. These are located at the end of the url in the format of `?{parameter name}={parameter value}&...`
+
+For example, shorten
+```
+https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Software-Engineer-Co-Op_JR07280?source=Applicant_Source_University_Career_Fair
+```
+to 
+```
+https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Software-Engineer-Co-Op_JR07280
+```
